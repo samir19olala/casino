@@ -606,6 +606,10 @@ strong {
   background: var(--section-bg-color);
 }
 
+.interview-section{
+  background-color: var(--section-bg-color);
+}
+
 .reviews-carousel .owl-item img,
 .avatar-image {
   border-radius: var(--border-radius-large);

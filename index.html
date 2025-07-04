@@ -65,13 +65,17 @@ Bootstrap 5 HTML CSS Template
                                 <li><a class="dropdown-item" href="shop-detail.html">detail de la boutique</a></li>
                             </ul>
                         </li>
-
+                        
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_4">Avis</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            <a class="nav-link click-scroll" href="#section_5">Media</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -349,15 +353,14 @@ Bootstrap 5 HTML CSS Template
             </section>
 
 
-
             <section class="reviews-section section-padding pb-0" id="section_4">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-12 col-12">
-                            <small class="section-small-title">Happy customers.</small>
+                            <small class="section-small-title">Clients satisfaits.</small>
 
-                            <h2 class="mt-2 mb-4">Reviews</h2>
+                            <h2 class="mt-2 mb-4">Avis</h2>
 
                             <div class="owl-carousel reviews-carousel">
                                 <div class="reviews-thumb">
@@ -490,8 +493,76 @@ Bootstrap 5 HTML CSS Template
                 </div>
             </section>
 
+            <section class="media_section section-padding bg-light" id="section_5">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-12 d-flex justify-content-between align-items-center">
+                            <h2 class="mb-0">Media</h2>
 
-            <section class="contact-section" id="section_5">
+                            <!-- Panneau de contrôle Bootstrap (filtrage) -->
+                            <div class="btn-group" role="group" aria-label="Filtrage Vidéo">
+                                <button type="button" class="btn btn-outline-danger active">Tous</button>
+                                <button type="button" class="btn btn-outline-danger">Clients</button>
+                                <button type="button" class="btn btn-outline-danger">Produits</button>
+                                <button type="button" class="btn btn-outline-danger">Événements</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <!-- Vidéo 1 -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="ratio ratio-16x9">
+                                <video class="w-100" controls poster="images/video-poster.jpg">
+                                    <source src="videos/mon-video.mp4" type="video/mp4">
+                                    Votre navigateur ne supporte pas la lecture de vidéos.
+                                </video>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Témoignage d'une cliente</h5>
+                                    <p class="card-text">Découvrez l'expérience de nos fidèles clients au Casino Congo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vidéo 2 -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="ratio ratio-16x9">
+                                    <video class="w-100" controls poster="images/video-poster.jpg">
+                                        <source src="videos/mon-video.mp4" type="video/mp4">
+                                        Votre navigateur ne supporte pas la lecture de vidéos.
+                                    </video>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Présentation d'un produit</h5>
+                                    <p class="card-text">Un aperçu des produits phares de notre hypermarché.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vidéo 3 -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="card shadow-sm border-0 h-100">
+                                <div class="ratio ratio-16x9">
+                                    <video class="w-100" controls poster="images/video-poster.jpg">
+                                        <source src="videos/mon-video.mp4" type="video/mp4">
+                                        Votre navigateur ne supporte pas la lecture de vidéos.
+                                    </video>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Événement au Casino</h5>
+                                    <p class="card-text">Retour en images sur notre dernière animation commerciale.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section" id="section_6">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
                 <div class="container">
                     <div class="row">
