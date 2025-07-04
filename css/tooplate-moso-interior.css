@@ -55,6 +55,28 @@ body {
     padding-top: 70px;
 }
 
+.text-clamp-blur {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Limite à 4 lignes */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+  line-height: 1.5em;
+  max-height: 6em; /* 4 lignes x 1.5em */
+}
+
+.text-clamp-blur::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3em; /* Ajuste selon besoin */
+  background: linear-gradient(to bottom, transparent, white); /* Change "white" selon fond */
+  pointer-events: none;
+}
+
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
@@ -313,6 +335,8 @@ strong {
   line-height: normal;
   padding: 15px 20px;
 }
+
+
 
 .custom-btn:hover {
   background: transparent;
@@ -588,7 +612,7 @@ strong {
   FEATURED              
 -----------------------------------------*/
 .featured-section {
-  background-image: url('../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg');
+  background-image: url('../images/casino_rayon.jfif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
